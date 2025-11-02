@@ -72,7 +72,7 @@ rsync -avz --progress winfile/* /mnt
 
 umount winfile
 
-wget -O virtio.iso https://goo.su/CFLdpDT
+wget -O virtio.iso https://fedorapeople.org/groups/virt/virtio-win/direct-downloads/archive-virtio/virtio-win-0.1.285-1/virtio-win-0.1.285.iso
 
 mount -o loop virtio.iso winfile
 
