@@ -30,7 +30,7 @@ This guide provides step-by-step instructions for installing Windows 10 on a Con
 - Execute the following commands:
   - `apt install git -y`
   - `git clone https://github.com/worldteamfx/Windows-Server-Contabo-VPS-main.git`
-  - `cd Windows-Server-Contabo-VPS`
+  - `cd Windows-Server-Contabo-VPS-main`
   - `chmod +x windows-install.sh`
   - `./windows-install.sh`
   - The process takes approximately 15 minutes and completes when the ssh session disconnects due to the machine rebooting.
